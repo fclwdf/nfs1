@@ -56,6 +56,7 @@ The following tables lists the configurable parameters of this chart and their d
 | `image.tag`                          | Version of provisioner image                                                                          | `v4.0.2`                                                      |
 | `image.pullPolicy`                   | Image pull policy                                                                                     | `IfNotPresent`                                                |
 | `imagePullSecrets`                   | Image pull secrets                                                                                    | `[]`                                                          |
+| `storageClass.create`                | Should we create a storageClass                                                                       | `create`                                                      |
 | `storageClass.name`                  | Name of the storageClass                                                                              | `nfs-client`                                                  |
 | `storageClass.defaultClass`          | Set as the default StorageClass                                                                       | `false`                                                       |
 | `storageClass.allowVolumeExpansion`  | Allow expanding the volume                                                                            | `true`                                                        |
