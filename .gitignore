@@ -24,3 +24,5 @@ _testmain.go
 *.prof
 
 nfs-client-provisioner
+OWNERS_ALIASES
+cloudbuild.yaml
