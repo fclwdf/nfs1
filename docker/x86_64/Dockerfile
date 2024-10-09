@@ -16,4 +16,5 @@
 #RUN apk update --no-cache && apk add ca-certificates
 #COPY nfs-subdir-external-provisioner /nfs-subdir-external-provisioner
 #ENTRYPOINT ["/nfs-subdir-external-provisioner"]
-FROM k8s.gcr.io/sig-storage/nfs-subdir-external-provisioner:v4.0.2
+#FROM k8s.gcr.io/sig-storage/nfs-subdir-external-provisioner:v4.0.2
+FROM registry.k8s.io/sig-storage/nfs-subdir-external-provisioner:v4.0.2
